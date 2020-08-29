@@ -3,6 +3,6 @@ import App from './App.vue';
 
 /* eslint-disable no-new */
 new Vue({
-  el: `#app`,
+  el: `#tab`,
   render: h => h(App),
 });

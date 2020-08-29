@@ -4,7 +4,8 @@
 module.exports = {
   root: true,
   parserOptions: {
-    parser: 'babel-eslint',
+    ecmaVersion: 2020,
+    parser: '@typescript-eslint/parser',
   },
   env: {
     browser: true,

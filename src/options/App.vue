@@ -1,17 +1,14 @@
 <template>
   <div>
-    <p>Hello world!</p>
+    <router-view></router-view>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-};
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+
+@Component
+export default class App extends Vue {}
 </script>
 
-<style scoped>
-p {
-  font-size: 20px;
-}
-</style>
+<style scoped></style>
