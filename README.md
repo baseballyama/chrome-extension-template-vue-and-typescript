@@ -1,4 +1,4 @@
-# chrome-extension-template-vue-and-typescript
+# Boiler Template for Chrome Extension which uses Vue.js & Typescript
 
 This repository provides template for Chrome extension which uses Vue.js and TypeScript.
 
