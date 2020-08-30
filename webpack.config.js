@@ -15,6 +15,7 @@ const config = {
     'popup/popup': './popup/popup.ts',
     'options/options': './options/options.ts',
     'tab/tab': `./tab/tab.ts`,
+    'contents/contents': './contents/contents.ts',
   },
   output: {
     path: path.join(__dirname, '/dist'),
