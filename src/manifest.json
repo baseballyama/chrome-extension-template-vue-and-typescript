@@ -1,6 +1,6 @@
 {
-  "name": "chrome-extension-bookmark-searcher",
-  "description": "This tool capture your bookmarked web page as of the time when you add web page to bookmark. And This tool search by your search word from these captured web pages. Purpose of this tool is prevent to search multiple times what you want to know.",
+  "name": "chrome-extension-template-vuejs-and-typescript",
+  "description": "This repository provides template for Chrome extension which uses Vue.js and TypeScript.",
   "version": null,
   "manifest_version": 2,
   "icons": {
@@ -8,7 +8,7 @@
     "128": "icons/icon_128.png"
   },
   "browser_action": {
-    "default_title": "chrome-extension-bookmark-searcher",
+    "default_title": "sample title",
     "default_popup": "popup/popup.html"
   },
   "background": {
